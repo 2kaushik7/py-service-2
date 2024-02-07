@@ -1,8 +1,15 @@
 <!DOCTYPE html>
+<h1>hellooooo</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
 <form action="/verify" method="post">
     <label>user</label>
     <input name="username" type="text" id="username" required /></br>
     <label>pass</label>
     <input name="password" type="password" id="username" required />
-    <button type="submit"></button>
+    <button type="submit">come on in</button>
 </form>
